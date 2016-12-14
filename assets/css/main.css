@@ -48,6 +48,16 @@
 		-webkit-text-size-adjust: none;
 	}
 
+/* My Additions */
+
+.headshot {
+	background-image: url("http://res.cloudinary.com/doepem37s/image/upload/c_scale,w_200/v1481705750/personal/personal_site_pic.jpg");
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	margin: auto;
+}
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -2710,7 +2720,7 @@
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed,							fixed;
-			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
+			background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
 			background-size: auto,							cover;
 		}
 
@@ -2799,9 +2809,10 @@
 	#header {
 		padding: 9em 0 9em 0 ;
 		background-color: #4686a0;
-		color: rgba(255, 255, 255, 0.75);
+		color: rgba(255, 255, 255, 1);
+		background-image: url("http://res.cloudinary.com/doepem37s/image/upload/c_scale,w_1300/v1481706313/personal/IMG_2801.jpg");
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+		/*background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);*/
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
@@ -2895,6 +2906,7 @@
 
 		#header p {
 			margin: 1em 0 0 0;
+			font-size: 20px;
 		}
 
 		#header .actions {
@@ -2955,7 +2967,7 @@
 			content: '';
 			height: 100%;
 			left: 0;
-			opacity: 0;
+			opacity: 0.4;
 			position: absolute;
 			top: 0;
 			width: 100%;
