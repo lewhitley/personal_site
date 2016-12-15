@@ -2338,6 +2338,11 @@
 		}
 
 			.image.fit img {
+				height: 200px;
+				margin: auto;
+			}
+
+			.image.fit1 img {
 				width: 100%;
 			}
 
@@ -2809,11 +2814,12 @@
 	#header {
 		padding: 9em 0 9em 0 ;
 		color: rgba(255, 255, 255, 1);
-		background-image: url("http://res.cloudinary.com/doepem37s/image/upload/c_scale,w_1300/v1481706313/personal/IMG_2801.jpg");
+		background-image: url("http://res.cloudinary.com/doepem37s/image/upload/v1481706313/personal/IMG_2801.jpg");
 		background-attachment: fixed,							fixed,							fixed;
 		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
-		overflow: hidden;
+		/*background-size: auto,							cover,							cover;*/
+		background-size: cover;
+		background-repeat: no-repeat;
 		position: relative;
 		text-align: center;
 	}
@@ -2915,7 +2921,7 @@
 			#header .actions:after {
 				background: #ffffff;
 				content: '';
-				height: 100vh;
+				height: 30vh;
 				left: 50%;
 				position: absolute;
 				top: 100%;
