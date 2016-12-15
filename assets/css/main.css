@@ -58,6 +58,54 @@
 	margin: auto;
 }
 
+.ruby img {
+	transform: rotateZ(-45deg);
+	position: absolute;
+	top: 16%;
+	right: -6%;
+	height: 80%;
+}
+
+.js img {
+	transform: rotateZ(-45deg);
+	position: absolute;
+	top: 14%;
+	right: 11%;
+	height: 80%;
+}
+
+.rails img {
+	transform: rotateZ(-45deg);
+	position: absolute;
+	top: 13%;
+	right: 12%;
+	height: 70%;
+}
+
+.react img {
+	transform: rotateZ(-45deg);
+	position: absolute;
+	top: 9%;
+	right: 6%;
+	height: 80%;
+}
+
+.sql img {
+	transform: rotateZ(-45deg);
+	position: absolute;
+	top: 11%;
+	right: 17%;
+	height: 80%;
+}
+
+.vue img {
+	transform: rotateZ(-45deg);
+	position: absolute;
+	top: 20%;
+	right: -4%;
+	height: 84%;
+}
+
 /* Box Model */
 
 	*, *:before, *:after {
