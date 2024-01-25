@@ -51,9 +51,9 @@
 /* My Additions */
 
 .headshot {
-	background-image: url("http://res.cloudinary.com/doepem37s/image/upload/c_scale,w_200/v1481705750/personal/personal_site_pic.jpg");
-	height: 200px;
-	width: 200px;
+	background-image: url("http://res.cloudinary.com/doepem37s/image/upload/c_scale,w_300/v1478397162/Spotlight/Whitley.jpg");
+	height: 300px;
+	width: 300px;
 	border-radius: 50%;
 	margin: auto;
 }
