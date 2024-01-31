@@ -51,9 +51,9 @@
 /* My Additions */
 
 .headshot {
-	background-image: url("http://res.cloudinary.com/doepem37s/image/upload/c_scale,w_200/v1481705750/personal/personal_site_pic.jpg");
-	height: 200px;
-	width: 200px;
+	background-image: url("http://res.cloudinary.com/doepem37s/image/upload/c_scale,w_300/v1478397162/Spotlight/Whitley.jpg");
+	height: 300px;
+	width: 300px;
 	border-radius: 50%;
 	margin: auto;
 }
@@ -66,10 +66,10 @@
 	height: 80%;
 }
 
-.js img {
+.git img {
 	transform: rotateZ(-45deg);
 	position: absolute;
-	top: 14%;
+	top: 11%;
 	right: 11%;
 	height: 80%;
 }
@@ -82,12 +82,12 @@
 	height: 70%;
 }
 
-.react img {
+.aws img {
 	transform: rotateZ(-45deg);
 	position: absolute;
-	top: 9%;
-	right: 6%;
-	height: 80%;
+	top: 11%;
+	right: -1%;
+	height: 65%;
 }
 
 .sql img {
@@ -98,12 +98,12 @@
 	height: 80%;
 }
 
-.vue img {
+.datadog img {
 	transform: rotateZ(-45deg);
 	position: absolute;
-	top: 20%;
-	right: -4%;
-	height: 84%;
+	top: 16%;
+	right: 16%;
+	height: 65%;
 }
 
 /* Box Model */
